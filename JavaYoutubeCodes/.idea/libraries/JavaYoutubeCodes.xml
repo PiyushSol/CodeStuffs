@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="JavaYoutubeCodes">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Snake.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MyClock.jar!/" />
+      <root url="jar://$PROJECT_DIR$/TextEditor.jar!/" />
+      <root url="jar://$PROJECT_DIR$/MyCalculator.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
