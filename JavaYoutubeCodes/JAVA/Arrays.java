@@ -226,5 +226,9 @@ public class Arrays{
         System.out.println("The Profit is : "+ buyAndSellStocks(prices));
     }
 
+    static boolean toString(int[] a) {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+
   
 }
