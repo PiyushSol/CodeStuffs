@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d9a3a973-c062-4b86-a3fd-188149f687a3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arrays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arrays.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BitManipulation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BitManipulation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DivideandCon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DivideandCon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JAVA+Alpha.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBasics.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBasics.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaLoops.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaLoops.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaMethods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedLists/SingleLL/SingleLL$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedLists/SingleLL/SingleLL$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedLists/SingleLL/SingleLL.class" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedLists/SingleLL/SingleLL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedLists/SingleLL/SingleLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedLists/SingleLL/SingleLL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Matrices.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Matrices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOPS.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOPS.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Patterns.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Patterns.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recursion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recursion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sorting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sorting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticeMaterials/Practice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PracticeMaterials/Practice.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2pUQ892RGhtEYm7YaZfGK0AN4DX" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Queues.executor": "Debug",
+    "Application.StackTest.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/cd246/OneDrive/Desktop/Practice/JAVA+Alpha",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d9a3a973-c062-4b86-a3fd-188149f687a3" name="Changes" comment="" />
+      <created>1732818012848</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732818012848</updated>
+    </task>
+    <servers />
+  </component>
+</project>

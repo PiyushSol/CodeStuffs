@@ -2,6 +2,7 @@
 
 
 
+
 public class SingleLL{
    public static Node head;
    public static Node tail;
@@ -174,17 +175,144 @@ public class SingleLL{
     }
 
     public static void main(String[] args) {
-        SingleLL ll = new SingleLL();
-        ll.addToHead(2);
-        ll.addToHead(1); 
-        ll.addToTail(4);
-        ll.addToTail(5);
-        ll.addToIndex(2, 3);
-        ll.printList();
-        // System.out.println(ll.rec_Search(4));
-        ll.reverseList();
-        ll.printList();
+    //    LinkedList<Integer> ll = new LinkedList<>();
+      SingleLL ll = new SingleLL();
+      ll.addToHead(5);
+      ll.addToHead(4);
+      ll.addToHead(3);
+      ll.addToHead(2);
+      ll.addToHead(1);  
+
+      ll.printList();
+    //   ll.head = ll.mergeSort(ll.head);
+      zigZag();
+      ll.printList();
+    }
+
+    //Convert LinkedList into ZigZag LinkedList
+    public static  void zigZag(){
+        //find mid
+        Node mid = findMid(head);
+        Node curr = mid.next;
+        mid.next=null;
+
+        Node prev= null , next;
+        while(curr!=null){
+            next=curr.next;
+            curr.next=prev;
+            prev=curr;
+            curr = next;
+        }
+        Node LH = head;
+        Node RH=prev;
+        Node nextL , nextR;
+        while(LH!=null && RH!=null ){
+            nextL = LH.next;
+            LH.next = RH;
+            nextR = RH.next;
+            RH.next = nextL;
+            RH = nextR;
+            LH=nextL;
+        }
+        
+    }
+    
+    //Merge Sort on LinkedList
+    public Node mergeSort(Node head){
+        if(head == null || head.next==null){
+            return head;
+        }
+        //findMid
+        Node mid = findMid(head);
+        //call merge sort for both half
+        Node rightHead = mid.next;
+        mid.next =null;
+      Node newLeft =  mergeSort(head);
+      Node newRight = mergeSort(rightHead);
+        //merge
+      return merge(newLeft,newRight);  
+    }
+
+    private Node merge(Node head1 , Node head2){
+        Node mergedLL= new Node(-1);
+        Node temp =mergedLL;
+        while(head1!=null && head2!=null){
+            if(head1.data <=head2.data){
+                temp.next=head1;
+                head1 = head1.next;
+                temp = temp.next;
+            }
+            else{
+                temp.next = head2;
+                head2  = head2.next;
+                temp =temp.next;
+            }
+        }
+
+        while(head1 !=null){
+            temp.next=head1;
+                head1 = head1.next;
+                temp = temp.next;
+        }
+        while(head2 !=null){
+            temp.next = head2;
+                head2  = head2.next;
+                temp =temp.next;
+        }
+        return mergedLL.next; 
+    }
+
+    public static Node findMid(Node head){
+        Node slow = head;
+        Node fast = head.next;
+        while(fast!=null && fast.next!=null){
+            slow=slow.next;
+            fast = fast.next.next;
+        }
+        return slow;
+    }
+
+    //Remove a loop or cycle in a LL.
+    public static void removeCycle(){
+        //Detect Cycle
+        Node slow=head;
+        Node fast=head;
+        boolean cycle =false;
+        while(fast!=null && fast.next!=null){
+            slow = slow.next;
+            fast = fast.next.next;
+            if(slow == fast){
+               cycle =true;
+               break;
+            }
+        }
+        if(cycle == false)return;
+
+        //Find the meeting point 
+        slow = head;
+        Node prev= null;
+        while(slow!=fast){
+            prev= fast;
+            slow = slow.next;
+            fast = fast.next;
+        }
+
+        //Remove the cycle
+        prev.next=null;
+    }
 
 
+    //Detect a loop or cycle in a LL.
+    public static boolean isCycle(){
+        Node slow=head;
+        Node fast=head;
+        while(fast!=null && fast.next!=null){
+            slow = slow.next;
+            fast = fast.next.next;
+            if(slow == fast){
+                return true;
+            }
+        }
+        return false;
     }
 }
