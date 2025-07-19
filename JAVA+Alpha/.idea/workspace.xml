@@ -5,40 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d9a3a973-c062-4b86-a3fd-188149f687a3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/JAVA+Alpha.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JAVA+Alpha.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arrays.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Arrays.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BitManipulation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BitManipulation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DivideandCon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DivideandCon.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA+Alpha.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasics.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasics.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaLoops.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaLoops.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaMethods.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedLists/SingleLL/SingleLL$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedLists/SingleLL/SingleLL$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedLists/SingleLL/SingleLL.class" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedLists/SingleLL/SingleLL.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedLists/SingleLL/SingleLL.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedLists/SingleLL/SingleLL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Matrices.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Matrices.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOPS.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOPS.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Patterns.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Recursion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Recursion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sorting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sorting.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strings.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Strings.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PracticeMaterials/Practice.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../PracticeMaterials/Practice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Queues/tempCodeRunnerFile.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,9 +25,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2pUQ892RGhtEYm7YaZfGK0AN4DX" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -68,6 +38,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BinaryTreesB.executor": "Run",
+    "Application.Greedy.executor": "Run",
     "Application.Queues.executor": "Debug",
     "Application.StackTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -76,12 +48,26 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/cd246/OneDrive/Desktop/Practice/JAVA+Alpha",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Greedy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Greedy" />
+      <module name="JAVA+Alpha" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Greedy" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
