@@ -6,6 +6,8 @@
       <sourceFolder url="file://$MODULE_DIR$/Recursion" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/TwoPointerandSlidingWindow" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Arrays" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/BinarySearch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LinkedList" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
