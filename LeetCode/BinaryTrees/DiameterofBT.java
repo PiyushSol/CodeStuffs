@@ -1,0 +1,28 @@
+public class DiameterofBT {
+    static class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+        TreeNode() {}
+        TreeNode(int val) { this.val = val; }
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
+    }
+
+    public static int diameterOfBinaryTree(TreeNode root) {
+        int diamter[] = new int[1];
+        height(root,diamter);
+        return diamter[0];
+    }
+
+    public static int height(TreeNode root, int[] diameter){
+        if(root ==null)return 0;
+        int lh = height(root.left,diameter);
+        int rh = height(root.right,diameter);
+        diameter[0]=Math.max(lh+rh,diameter[0]);
+        return 1 + Math.max(rh,lh);
+    }
+}
