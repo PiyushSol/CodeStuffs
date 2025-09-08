@@ -10,6 +10,8 @@
       <sourceFolder url="file://$MODULE_DIR$/LinkedList" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/StacksandQueues" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/BinaryTrees" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/BinarySearchTrees" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DP" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
